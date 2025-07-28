@@ -30,5 +30,4 @@ winget install --id Adobe.CreativeCloud -e --accept-source-agreements --accept-p
 winget install --id Adobe.Acrobat.Pro -e --accept-source-agreements --accept-package-agreements
 winget install --id Oracle.VirtualBox -e --accept-source-agreements --accept-package-agreements
 
-powershell.exe -Command "Set-ExecutionPolicy RemoteSigned -Scope LocalMachine -Force"
 start pwsh.exe -File "aramar.ps1"
